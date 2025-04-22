@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTip from './ProTip';
+import DateTime from './DateTime';
 
 function Copyright() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
           This is my first ever React app!
         </Typography>
         <ProTip />
+        <DateTime />
         <Copyright />
       </Box>
     </Container>
