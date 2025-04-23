@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import ProTip from './ProTip';
 import DateTime from './DateTime';
 import Copyright from './Copyright';
+import CountryDropdown from './CountryDropdown';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         </Typography>
         <ProTip />
         <DateTime />
+        <CountryDropdown />
         <Copyright />
       </Box>
     </Container>
